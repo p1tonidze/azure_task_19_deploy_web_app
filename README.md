@@ -1,6 +1,6 @@
 # Deploy a Web App
 
-To improve the sales of your web app, you decided to deploy a free-to-use, publicly-available instance. The infrastructure has to be as cheap and simple as it's possible, and you are not concerned with security and private networking - it's a perfect use case for the Azure App Services. 
+To improve the sales of your web app, you decided to deploy a free-to-use, publicly available instance. The infrastructure has to be as cheap and simple as possible, and you are not concerned with security and private networking — it's a perfect use case for Azure App Services. 
 
 In this task, you will deploy a web app to Azure App Services (Azure Web App). 
 
@@ -37,15 +37,15 @@ If you are a Windows user, before running this command, please also run the foll
 
 Today you will mostly work in Azure Portal. To complete this task, perform the following steps: 
 
-1. Create a resource group, called 'mate-azure-task-19'
+1. Create a resource group called `mate-azure-task-19`;
 
-2. Follow the [tutorial](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-get-started-portal?tabs=azure-powershell) to deploy [Azure Container Registry](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-intro). Azure Container Registry (or ACR for short) - is an Azure PaaS service for private Docker container registry, which is fully integrated with other Azure products, like App Services. **When deploying the ACR, make sure to use 'Basic' SKU.**
+2. Follow the [tutorial](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-get-started-portal?tabs=azure-powershell) to deploy [Azure Container Registry](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-intro). Azure Container Registry (or ACR for short) — is an Azure PaaS service for private Docker container registry, which is fully integrated with other Azure products, like App Services. **When deploying the ACR, make sure to use `Basic` SKU**;
 
-3. Clone this repository, build a Docker image for the application in the `/app` folder, and push it to the ACR you deployed in the previous step. The image must be called 'todoapp' (so the full image name will look like this: '<acr-name>.azurecr.io/todoapp:v1').  
+3. Clone this repository, build a Docker image for the application in the `/app` folder, and push it to the ACR you deployed in the previous step. The image must be called `todoapp` (so the full image name will look like this: `<acr-name>.azurecr.io/todoapp:v1`).  
 
-4. Follow the [tutorial](https://learn.microsoft.com/en-us/training/modules/deploy-run-container-app-service/5-exercise-deploy-web-app?pivots=csharp) to create a Web App for containers. Use the image, you pushed to the ACR in the previous step. 
+4. Follow the [tutorial](https://learn.microsoft.com/en-us/training/modules/deploy-run-container-app-service/5-exercise-deploy-web-app?pivots=csharp) to create a Web App for containers. Use the image you pushed to the ACR in the previous step;
 
-5. Check that app is working, and enjoy the simplicity of the Azure Web Apps :sunglasses:
+5. Check that the app is working, and enjoy the simplicity of the Azure Web Apps :sunglasses:;
 
 6. Run artifacts generation script `scripts/generate-artifacts.ps1`;
 
@@ -67,7 +67,7 @@ Here is how to complete tasks in this module:
 
 1. Clone task repository;
 
-2. Make sure you completed the steps, described in the Prerequisites section;
+2. Make sure you completed the steps described in the Prerequisites section;
 
 3. Complete the task described in the Requirements section;
 
