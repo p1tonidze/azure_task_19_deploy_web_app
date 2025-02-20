@@ -108,3 +108,4 @@ if ($webApp.properties.siteConfig.linuxFxVersion.Contains($imageName)) {
 
 Write-Output ""
 Write-Output "`u{1F973} Congratulations! All tests passed!"
+

@@ -73,3 +73,4 @@ $artifactsConfig = @{
     resourcesTemplate = "$resourcesTemplateURL"
 }
 $artifactsConfig | ConvertTo-Json | Out-File -FilePath $artifactsConfigPath -Force
+
